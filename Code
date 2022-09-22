@@ -66,11 +66,11 @@ def main():
     t5 = time.time()
     bogobogotime = t5-t4
     print("Bogobogosort: " + format.format(bogobogotime) + " seconds")
-
+   
     t6 = time.time()
     Bogoosort(x)
     t7 = time.time()
-    bogobogotime = t7 - t6
-    print("Bogooosort: " + format.format(bogobogotime) + " seconds")
-
+    bogootime = t7 - t6
+    print("Bogooosort: " + format.format(bogootime) + " seconds")
+    
 main()
